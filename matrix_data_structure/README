@@ -1,0 +1,38 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #5: Matrix Class
+
+Included Files:
+    * matrix.cpp
+    * we5_test.cpp
+    * matrix.h
+    * matrix_class.sh
+    * README
+    * Makefile
+        Makefile Targets:
+            - make (we5_solution): Builds the executable we5_solution
+            - make clean: Removes all object files and the executable
+            - make matrix.o: Builds the object file for matrix.cpp
+            - make we5_test.o: Builds the object file for we5_test.cpp
+
+Running instructions: 
+        In the directory (named, "soln") containing the files matrix.cpp, we5_test.cpp, matrix.h,
+    matrix_class.sh and a custom Makefile with the TestCentre Makefile in the parent directory (also containing the 
+    test cases that the submission needs to be tested upon), use the command "make". This will feed the test cases
+    to the program one after the other and provide feedback whether the program passes it or not. Use the command
+    "make clean" to remove all object files and the executable while in the "soln" directory.
+
+Notes and Assumptions:
+        The file we5_test.cpp, which is the driver file, is completely unchanged. So is the file and matrix_class.sh. The
+    file matrix.cpp contains the implementation of the class methods of the class Matrix. In order to manually provide
+    input for the program, run the command "make (we3_soltution)" in the "soln" directory. This will create the
+    executable in the same directory which can be run with "./we5_solutiion". The user will now be prompted for input. The
+    user must adhere to the driver file commands, provided in the exercise description, to test the Matrix class methods
+    manually.
+        
+        For the program to run as expected, the inputs fed to the program must adhere to the specifications provided in
+    the exercise description.

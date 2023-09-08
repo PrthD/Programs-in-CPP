@@ -1,0 +1,35 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #6: Graph Concepts
+
+Included Files:
+    * graph_concepts.cpp
+    * digraph.cpp
+    * digraph.h
+    * edmonton-roads-2.0.1.txt
+    * README
+    * Makefile
+        Makefile Targets:
+            - make (we6_solution): Builds the executable we6_solution
+            - make clean: Removes all object files and the executable
+            - make graph_concepts.o: Builds the object file for graph_concepts.cpp
+            - make digraph.o: Builds the object file for digraph.cpp
+
+Running instructions: 
+        In the directory (named, "soln") containing the files graph_concepts.cpp, digraph.cpp, digraph.h, edmonton-roads-2.0.1.txt and a
+    custom Makefile, use the command "make". This will create the executable "we6_solution" in the "soln" directory. In order to redirect
+    the input to the program from the text file "edmonton-roads-2.0.1.txt", run "./we6_solution < edmonton-roads-2.0.1.txt" in the same
+    "soln" directory. Use the command "make clean" to remove all object files and the executable while in the "soln" directory.
+
+Notes and Assumptions:
+        The files digraph.cpp, digraph.h, and edmonton-roads-2.0.1.txt are completely unchanged. The file graph_concepts.cpp contains the
+    codes for all tasks of the exercise. In order to manually provide input for the program, run the command "make" in the "soln"
+    directory. This will create the executable in the same directory which can be run with "./we6_solution". The user will now be
+    prompted for input. The user must adhere to the input format, provided in the exercise description, to test the program manually.
+        
+        The "depth_first_search(const Digraph &graph, const int u, const int prev, unordered_map<int, int> &visited)" function (for Task
+    1) of the file graph_concepts.cpp is implemented from the Lecture 13 of the in-class discussion.

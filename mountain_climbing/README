@@ -1,0 +1,29 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #7: Divide and Conquer
+
+Included Files:
+    * climbing.cpp
+    * README
+    * Makefile
+        Makefile Targets:
+            - make (we7_solution or all): Builds the executable we7_solution
+            - make clean: Removes all object files and the executable
+            - make climbing.o: Builds the object file for climbing.cpp
+
+Running instructions: 
+        In the parent directory containing the originally provided Makefile, run "make" to initiate the automated testing of
+    the program.
+
+Notes and Assumptions:
+        All the files (except climbing.cpp) originally provided via GitHub Classroom are completely unchanged. The file
+    climbing.cpp contains the codes for alll tasks of the exercise.
+    
+        In order to manually provide input for the program, run the command "make (we7_solution)" in the "soln" directory.
+    This will create the executable in the same directory which can be run with "./we7_solution". The user will now be
+    prompted for input. The user must adhere to the input format provided in the exercise description for the program to run
+    as expected. Use the command "make clean" to remove all object files and the executable while in the "soln" directory.

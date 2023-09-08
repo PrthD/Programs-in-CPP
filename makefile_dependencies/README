@@ -1,0 +1,22 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #7: Interview Question (Makefile Dependencies)
+
+Included Files:
+    * makefile_dependencies.cpp
+    * README
+
+Running instructions: 
+        In the parent directory containing the originally provided Makefile, run the command "make". This will initiate the
+    automated testing of the program.
+
+Notes and Assumptions:
+        All the files (except makefile_dependencies.cpp) originally provided via GitHub Classroom are completely unchanged.
+    The file makefile_dependencies.cpp contains the solution for this exercise.
+
+        The function buildTargets(string target, unordered_map<string, vector<string>> &makefile, unordered_set<string> &built,
+    vector<string> &result) in the file makefile_dependencies.cpp is an implementation of the Depth-First-Search Algorithm (DFS).

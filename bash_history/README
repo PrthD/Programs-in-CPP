@@ -1,0 +1,21 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #5: Interview Question (Bash History)
+
+Included Files:
+    * bash_history.cpp
+    * bash_history.sh
+    * README
+
+Running instructions: 
+        In the directory (named, "soln") containing the files bash_history.cpp, bash_history.sh, and a Makefile
+    with all the test cases that the submission needs to be tested upon, use the command "make". This will feed the
+    test cases to the program one after the other and provide feedback whether the program passed it or not.
+
+Notes and Assumptions:
+        For the program to work normally and as expected, the test case inputs must STRICTLY adhere to the
+    specifications provided in the exercise description.

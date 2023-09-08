@@ -1,0 +1,37 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #3: Reference Manager
+
+Included Files:
+    * ref_manager.cpp
+    * we3_test.cpp
+    * ref_manager.h
+    * ref_manager.sh
+    * README
+    * Makefile
+        Makefile Targets:
+            - make (we3_solution): Builds the executable we3_solution
+            - make clean: Removes all object files and executables
+            - make ref_manager.o: Builds the object file for ref_manager.cpp
+            - make we3_test.o: Builds the object file for we3_test.cpp
+
+Running instructions: 
+        In the directory (named, "soln") containing the files ref_manager.cpp, we3_test.cpp, ref_manager.h,
+    ref_manager.sh and a custom Makefile with the TestCentre Makefile in the parent directory (also containing the 
+    test cases that the submission needs to be tested upon), use the command "make". This will feed the test cases
+    to the program one after the other and provide feedback whether the program passes or not. Use the command
+    "make clean" to remove all object files and executables while in the "soln" directory.
+
+Notes and Assumptions:
+        The file ref_manager.h containing the definition of the ReferenceManager class is completely unchanged. So
+    are the files we3_test.cpp and ref_manager.sh. The file ref_manager.cpp contains the implementation of the
+    class methods of the class ReferenceManager. In order to manually provide input for the program, run the
+    command "make (we3_soltution)" in the "soln" directory. This will create the executable in the same directory
+    which can be run with "./we3_solutiion". The user will now be prompted for input.
+        
+        For the program to run as expected, the inputs fed to the program must adhere to the specifications
+    provided in the exercise description.

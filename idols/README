@@ -1,0 +1,26 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #2 - Idols
+
+Included Files:
+    * idols.cpp
+    * idols.sh
+    * README
+
+Running instructions: 
+        In a directory (namely, "soln") containing the files idols.cpp, idols.sh, and a Makefile with all the
+    test cases that the submission needs to be tested upon, use the command "make". This will feed the test cases
+    to the program one after the other and provide feedback whether the submitted program passed it or not.
+
+Notes and Assumptions:
+        The file idols.cpp contains a function called reverse which takes two pointers (pointing to two integer
+    entries of an array) as input arguments and reverses all entries between these pointers including the entry
+    pointed to by "begin" but not the entry pointed to by "end".
+
+        In accordance to the input specification provided in the description of the exercise, the program may take
+    greater lengths of time IF the first line of input exceeds the condition 1 ≤ n ≤ 100,000 or may even fail to
+    provide an output.

@@ -1,0 +1,21 @@
+Name: Parth Dadhania
+SID: 1722612
+CCID: pdadhani
+AnonID: 1000330704
+CMPUT 275, Winter 2023
+
+Assessment: Weekly Exercise #3: Interview Question (Sales Assistant)
+
+Included Files:
+    * sales.cpp
+    * sales.sh
+    * README
+
+Running instructions: 
+        In the directory (named, "soln") containing the files sales.cpp, sales.sh, and a Makefile with all the
+    test cases that the submission needs to be tested upon, use the command "make". This will feed the test cases
+    to the program one after the other and provide feedback whether the program passed it or not.
+
+Notes and Assumptions:
+        In accordance to the input specification provided in the description of the exercise, the program may take
+    greater lengths of time IF the provided inputs exceed the condition given in the exercise description.
